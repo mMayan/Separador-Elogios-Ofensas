@@ -7,6 +7,8 @@ while True:
     msg = str(input("digite a mensagem: "))
     splitted = re.split(r'[ ,]', msg)
 
+    
+
     for word in splitted:
         if word in good_words:
             with open('elogios.txt', 'a') as file:
