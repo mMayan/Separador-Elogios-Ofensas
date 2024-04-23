@@ -7,6 +7,10 @@ while True:
     msg = str(input("digite a mensagem: "))
     splitted = re.split(r'[ ,]', msg)
 
+    if msg == 'sair':
+        print('saindo...')
+        break
+
     for word in splitted:
         if word in good_words:
             with open('elogios.txt', 'a') as file:
@@ -17,8 +21,6 @@ while True:
             with open('ofensas.txt', 'a') as file:
                 file.write(msg + '\n')
                 break
-
-
 
 
 #dar um jeito de fazer com que o código apague os arquivos de texto quando eu quiser com a palavra "apagar"
