@@ -20,7 +20,7 @@ while True:
 
 
 
-#fazer o if para quebrar o loop
+
 #dar um jeito de fazer com que o código apague os arquivos de texto quando eu quiser com a palavra "apagar"
 #eventualmente botar isso num GUI
 #se fizer um elogio com palavrão ele não vai saber detectar direito, corrigir isso
