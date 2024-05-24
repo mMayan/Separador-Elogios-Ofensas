@@ -24,7 +24,7 @@ def main():
     bad_words = ['caralho', 'porra', 'puta', 'pariu', 'merda', 'cu', 'foder', 'fuder', 'viado',
                  'cacete', 'odeio', 'ódio', 'feio', 'foda-se', 'fodase', 'desgraçado', 'desgraçada']
 
-    msg = dpg.get_value('input_text')  # esse é tipo o input do bgl
+    msg = dpg.get_value('input_text')  
     splitted = re.split(r'[ ,]', msg)
 
     for word in splitted:
