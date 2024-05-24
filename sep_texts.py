@@ -1,3 +1,4 @@
+import dearpygui.dearpygui as dpg
 import re
 import os
 
@@ -41,7 +42,6 @@ while True:
             with open('ofensas.txt', 'a') as file:
                 file.write(msg + '\n')
                 break
-
 
 #eventualmente botar isso num GUI
 #se fizer um elogio com palavrão ele não vai saber detectar direito, corrigir isso
